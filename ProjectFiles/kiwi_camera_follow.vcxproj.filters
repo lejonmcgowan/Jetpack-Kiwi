@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\kiwi_camera_follow.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{921963FA-FAB9-486F-AD22-760D1E35FB90}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\kiwi_camera_follow.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\kiwi_camera_followEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4D3E0EE9-ABF4-474F-8517-E978720C48A7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\kiwi_camera_follow">
+			<UniqueIdentifier>{0F75253E-35A3-429E-842D-DD86841B7453}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\kiwi_camera_follow\kiwi_camera_follow.Build.cs">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\kiwi_camera_follow\kiwi_camera_follow.cpp">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\kiwi_camera_follow\kiwi_camera_follow.h">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\kiwi_camera_follow\RoadTest.cpp">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\kiwi_camera_follow\RoadTest.h">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\kiwi_camera_follow\SplineFollowActor.cpp">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\kiwi_camera_follow\SplineFollowActor.h">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\kiwi_camera_follow\TestClass.cpp">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\kiwi_camera_follow\TestClass.h">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\kiwi_camera_follow\TrackGeneratorActor.cpp">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\kiwi_camera_follow\TrackGeneratorActor.h">
+			<Filter>Source\kiwi_camera_follow</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
